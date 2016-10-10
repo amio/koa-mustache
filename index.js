@@ -12,7 +12,7 @@ module.exports = function (rootpath, opts = defaultOptions) {
   return function mustache (ctx, next) {
     if (ctx.method === 'GET') {
       const p = path.join(rootpath, ctx.path)
-      const content = render(p, opts.extension)
+      const content = render(p, opts.extension, opts.debug)
       if (content) {
         ctx.body = content
       } else {
