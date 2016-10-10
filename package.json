@@ -1,0 +1,16 @@
+{
+  "name": "koa-mustache",
+  "version": "0.0.0",
+  "license": "ISC",
+  "description": "WIP",
+  "repository": "amio/koa-mustache",
+  "author": "Amio <amio.cn@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "attempts": "^1.0.0",
+    "mustache": "^2.2.1"
+  }
+}
