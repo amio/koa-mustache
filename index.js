@@ -44,7 +44,7 @@ function render (pathname, ext, debug) {
 /**
  * resolveAvailableTemplate
  *
- * Visit '/', '/index', '/index.mustache' will resolved to 'views/index.mustache'
+ * Visit '/', '/index', '/index.mustache' will get resolved to '/index.mustache'
  *
  * @param  {String} pathname
  * @return {String|undefined}
