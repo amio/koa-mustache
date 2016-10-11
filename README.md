@@ -1,8 +1,10 @@
 # koa-mustache [![npm-version][npm-badge]][npm-link]
 
+> NOTE: for koa@2.0.0 + only.
+
 ## Feature
 
-- Visit `/`, `/index`, `/index.mustache` will get resolved to `/index.mustache`
+- Visit `/`, `/index` will get resolved to `/index.mustache`
 - Visit `/home` will get resolved to `/home.mustache` or `/home/index.mustache`
 - If there is a `.json` or `.data.js` (which exports a object) file with same
   name beside the template file, it will be used as it's data source.

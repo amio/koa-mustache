@@ -44,7 +44,7 @@ function render (pathname, ext, debug) {
 /**
  * resolveAvailableTemplate
  *
- * Visit '/', '/index', '/index.mustache' will get resolved to '/index.mustache'
+ * Visit '/', '/index' will get resolved to '/index.mustache'
  *
  * @param  {String} pathname
  * @return {String|undefined}
@@ -58,7 +58,6 @@ function resolveAvailableTemplate (pathname, ext) {
     }
   }, [
     path.join(pathname + '.' + ext),
-    path.join(pathname, 'index.' + ext),
-    pathname
+    path.join(pathname, 'index.' + ext)
   ])
 }
