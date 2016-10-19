@@ -29,6 +29,11 @@ app.listen(3000)
 - **`extension`**(="mustache"): custom file extension to be recognized as mustache template.
 - **`debug`**(=false): enable debug log.
 
+## Example
+
+Either execute `npm run example` to run locally,  
+or check the online [live example](https://koa-mustache.now.sh/) and [it's source](https://koa-mustache.now.sh/_src/?f=example%2Fserver.js).
+
 ## License
 
 ISC © [Amio][author]
