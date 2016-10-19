@@ -1,3 +1,49 @@
 body {
-  color: red
+  margin: 0;
+  color: #333;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+header {
+  height: 54px;
+  line-height: 54px;
+  background-color: #1976D2;
+  color: #FFF;
+  letter-spacing: 0.02em;
+  padding: 0 1em;
+}
+
+.content {
+  width: 800px;
+  margin: 4rem auto;
+  font-family: Palatino, Georgia, serif;
+}
+
+.content h1 {
+  font-size: 2.1rem;
+  margin: 4rem 0 2rem 0;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.content .author {
+  font-style: italic;
+  color: #777;
+  letter-spacing: 0.03em;
+  margin: 2rem 0;
+}
+
+.content p {
+  color: #555;
+  letter-spacing: 0.02em;
+  line-height: 1.3em;
+  position: relative;
+  text-align: justify;
+}
+
+.content .paragraph-no {
+  position: absolute;
+  color: #DDD;
+  left: -2.5em;
 }
