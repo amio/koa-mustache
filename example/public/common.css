@@ -15,7 +15,7 @@ header {
 }
 
 .content {
-  width: 800px;
+  width: 750px;
   margin: 4rem auto;
   font-family: Palatino, Georgia, serif;
 }
@@ -37,7 +37,7 @@ header {
 .content p {
   color: #555;
   letter-spacing: 0.02em;
-  line-height: 1.3em;
+  line-height: 1.6em;
   position: relative;
   text-align: justify;
 }
