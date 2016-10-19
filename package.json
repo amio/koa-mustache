@@ -8,13 +8,15 @@
   "main": "index.js",
   "scripts": {
     "example": "node example/server.js",
-    "start": "node example/server.js",
+    "now-start": "npm run example",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "files": [
-    "index.js",
-    "example"
+    "index.js"
   ],
+  "now": {
+    "files": ["index.js", "example"]
+  },
   "dependencies": {
     "attempts": "^1.0.0",
     "mustache": "^2.2.1"
