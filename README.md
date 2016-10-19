@@ -17,7 +17,7 @@ const koaMustache = require('koa-mustache')
 
 const app = new Koa()
 app.use(koaMustache(__dirname + '/public', {
-  extension: 'mustache'
+  extension: 'html'
 }))
 
 app.listen(3000)
@@ -25,8 +25,9 @@ app.listen(3000)
 
 ## Options
 
-- **`extension`**: custom file extension to be recognized as mustache template.
-- **`debug`**: enable debug log.
+- **`partialsDir`**(="_partials"): a directory inside public folder, for partial files.
+- **`extension`**(="mustache"): custom file extension to be recognized as mustache template.
+- **`debug`**(=false): enable debug log.
 
 ## License
 
