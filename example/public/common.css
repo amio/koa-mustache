@@ -12,6 +12,18 @@ header {
   color: #FFF;
   letter-spacing: 0.02em;
   padding: 0 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  color: #FFF;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+header a:hover {
+  opacity: 1;
 }
 
 .content {
