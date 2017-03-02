@@ -1,5 +1,7 @@
 # koa-mustache [![npm-version][npm-badge]][npm-link]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/amio/koa-mustache.svg)](https://greenkeeper.io/)
+
 > NOTE: for koa@2.0.0 + only.
 
 ## Feature
